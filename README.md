@@ -85,6 +85,9 @@ This will give students a better idea of what is being served on a daily basis o
 <img src="https://i.ibb.co/zZkQB4h/IMG-2981.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+<img src="https://i.ibb.co/0Y2242y/i-Phone-8-Plus-1.jpg" width=600>
+<img src="https://i.ibb.co/5srNbVd/i-Phone-8-Plus-2.jpg" width=600>
+<img src="https://i.ibb.co/gZ9B3QV/i-Phone-8-Plus-3.jpg" width=600>
 
 ### [BONUS] Interactive Prototype
 
