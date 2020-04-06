@@ -92,10 +92,38 @@ This will give students a better idea of what is being served on a daily basis o
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+**Review Post**
+| Property |      Type       |                                                  Description |
+|:-------- |:---------------:| ------------------------------------------------------------:|
+| Comment  |     String      |                           Text where user can insert comment |
+| Rating   |     Integer     |                              Number out of 5 for food rating |
+| Category |     String      |                     Text to describe the type of food served |
+| Like     |     Integer     |     Number that shows how many students approve of this food |
+| Dislike  |     Integer     | Number that shows how many students dissapprove of this food |
+| Author   | Pointer to User |          Image that user chooses to identify themselves with |
+| Image    |      File       |                                          Image user may post |
+| Date     |     String      |                                 Date that comment was posted |
+
+**Menu Item**
+| Property        |  Type   |                                                    Description |
+|:--------------- |:-------:| --------------------------------------------------------------:|
+| Title           | String  |                                              Name of Food Item |
+| Rating          | Integer |                                Number out of 5 for food rating |
+| Nutrition facts | String  |     Text to describe the Calories and other makeup of the food |
+| Reviews         | Integer | Number that shows how many students approve stringof this food |
+| Type            | String  |                                     Breakfast, Lunch or Dinner |
+| Location        | String  |                         Text to describe where food is located |
+| Image           |  File   |                                            Image user may post |
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+**List of Network Requests by screen**
+* Main Screen
+   * (Read/GET)Get all the menu items for that day
+* Food Detailed View
+    * (Create/POST) Create a new review post
+    * (Create/Post) Create a new like/dislike on a post
+    * (Read/GET) Get details of menu item
+* Comments View
+    * (Read/GET) Reviews of a menu item
