@@ -105,6 +105,7 @@ This will give students a better idea of what is being served on a daily basis o
 | Author   | Pointer to User |          Image that user chooses to identify themselves with |
 | Image    |      File       |                                          Image user may post |
 | Date     |     String      |                                 Date that comment was posted |
+| Menu Item|Pointer to Menu Item |                             Date that comment was posted |
 
 **Menu Item**
 | Property        |  Type   |                                                    Description |
@@ -115,7 +116,7 @@ This will give students a better idea of what is being served on a daily basis o
 | Reviews         | Integer | Number that shows how many students approve stringof this food |
 | Type            | String  |                                     Breakfast, Lunch or Dinner |
 | Location        | String  |                         Text to describe where food is located |
-| Image           |  File   |                                            Image user may post |
+| Image           |  File   |                                            Image of food       |
 
 ### Networking
 **List of Network Requests by screen**
