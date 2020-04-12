@@ -1,0 +1,155 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		5664B4692443B87C0095F6DF /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		5664B46A2443B87C0095F6DF /* UIFont+OpenSans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+OpenSans.h"; sourceTree = "<group>"; };
+		5664B46B2443B87C0095F6DF /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5664B46C2443B87C0095F6DF /* OpenSansDemo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OpenSansDemo; sourceTree = "<group>"; };
+		5664B46D2443B87C0095F6DF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5664B46E2443B87C0095F6DF /* UIFont+OpenSans.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+OpenSans.m"; sourceTree = "<group>"; };
+		5664B46F2443B87C0095F6DF /* OpenSans.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OpenSans.podspec; sourceTree = "<group>"; };
+		5664B4702443B87C0095F6DF /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		5664B4712443B87C0095F6DF /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		5664B4722443B87C0095F6DF /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5664B4632443B87C0095F6DF = {
+			isa = PBXGroup;
+			children = (
+				5664B4692443B87C0095F6DF /* .DS_Store */,
+				5664B46A2443B87C0095F6DF /* UIFont+OpenSans.h */,
+				5664B46B2443B87C0095F6DF /* Makefile */,
+				5664B46C2443B87C0095F6DF /* OpenSansDemo */,
+				5664B46D2443B87C0095F6DF /* .gitignore */,
+				5664B46E2443B87C0095F6DF /* UIFont+OpenSans.m */,
+				5664B46F2443B87C0095F6DF /* OpenSans.podspec */,
+				5664B4702443B87C0095F6DF /* LICENSE.txt */,
+				5664B4712443B87C0095F6DF /* Fonts */,
+				5664B4722443B87C0095F6DF /* .travis.yml */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		5664B4682443B87C0095F6DF /* OpenSans-master  */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 5664B4732443B87C0095F6DF /* Build configuration list for PBXLegacyTarget "OpenSans-master " */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/georg/projects/BearBites/Bear Bites/OpenSans-master ";
+			dependencies = (
+			);
+			name = "OpenSans-master ";
+			passBuildSettingsInEnvironment = 1;
+			productName = "OpenSans-master ";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		5664B4642443B87C0095F6DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 5664B4672443B87C0095F6DF /* Build configuration list for PBXProject "OpenSans-master " */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5664B4632443B87C0095F6DF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5664B4682443B87C0095F6DF /* OpenSans-master  */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		5664B4652443B87C0095F6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		5664B4662443B87C0095F6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		5664B4742443B87C0095F6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "OpenSans-master ";
+			};
+			name = Debug;
+		};
+		5664B4752443B87C0095F6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "OpenSans-master ";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5664B4672443B87C0095F6DF /* Build configuration list for PBXProject "OpenSans-master " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5664B4652443B87C0095F6DF /* Debug */,
+				5664B4662443B87C0095F6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5664B4732443B87C0095F6DF /* Build configuration list for PBXLegacyTarget "OpenSans-master " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5664B4742443B87C0095F6DF /* Debug */,
+				5664B4752443B87C0095F6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5664B4642443B87C0095F6DF /* Project object */;
+}
