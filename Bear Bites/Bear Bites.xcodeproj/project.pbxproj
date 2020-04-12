@@ -122,11 +122,8 @@
 				56DAAF5A243766FA008E6F20 /* Assets.xcassets */,
 				56DAAF5C243766FA008E6F20 /* LaunchScreen.storyboard */,
 				56DAAF5F243766FA008E6F20 /* Info.plist */,
-<<<<<<< HEAD
 				5664B47E2443CAD50095F6DF /* SectionHeaderView.swift */,
-=======
 				67DF4E412443C76E00C008D8 /* FoodDetailViewController.swift */,
->>>>>>> 1e607541c054ed2f2116cdb2c0f51c655a4d18d8
 			);
 			path = "Bear Bites";
 			sourceTree = "<group>";
