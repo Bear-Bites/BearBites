@@ -20,6 +20,7 @@
 		56DAAF5E243766FA008E6F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DAAF5C243766FA008E6F20 /* LaunchScreen.storyboard */; };
 		56DAAF69243766FA008E6F20 /* Bear_BitesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAAF68243766FA008E6F20 /* Bear_BitesTests.swift */; };
 		56DAAF74243766FA008E6F20 /* Bear_BitesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAAF73243766FA008E6F20 /* Bear_BitesUITests.swift */; };
+		67DF4E422443C76E00C008D8 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DF4E412443C76E00C008D8 /* FoodDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		56DAAF6F243766FA008E6F20 /* Bear BitesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bear BitesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DAAF73243766FA008E6F20 /* Bear_BitesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_BitesUITests.swift; sourceTree = "<group>"; };
 		56DAAF75243766FA008E6F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67DF4E412443C76E00C008D8 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +122,11 @@
 				56DAAF5A243766FA008E6F20 /* Assets.xcassets */,
 				56DAAF5C243766FA008E6F20 /* LaunchScreen.storyboard */,
 				56DAAF5F243766FA008E6F20 /* Info.plist */,
+<<<<<<< HEAD
 				5664B47E2443CAD50095F6DF /* SectionHeaderView.swift */,
+=======
+				67DF4E412443C76E00C008D8 /* FoodDetailViewController.swift */,
+>>>>>>> 1e607541c054ed2f2116cdb2c0f51c655a4d18d8
 			);
 			path = "Bear Bites";
 			sourceTree = "<group>";
@@ -282,6 +288,7 @@
 				5664B47D2443C5EC0095F6DF /* RefacCollectionViewCell.swift in Sources */,
 				56DAAF52243766F7008E6F20 /* AppDelegate.swift in Sources */,
 				56DAAF54243766F7008E6F20 /* SceneDelegate.swift in Sources */,
+				67DF4E422443C76E00C008D8 /* FoodDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
