@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+
+class SectionHeaderView: UICollectionReusableView{
+    @IBOutlet weak var categoryTitleLabel: UILabel!
+    
+    var catergoryTitle: String! {
+        didSet {
+            categoryTitleLabel.text = catergoryTitle
+        }
+    }
+}
