@@ -109,10 +109,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCp-vx-xhY" customClass="FoodDetailViewCintroller">
-                                <rect key="frame" x="87" y="81" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FoodyType1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nb0-Av-OmW">
                                 <rect key="frame" x="42" y="328" width="92" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -188,11 +184,26 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rWf-Vt-ekJ">
+                                <rect key="frame" x="87" y="62" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="yah-zi-vaT"/>
                     </view>
                     <connections>
+                        <outlet property="commentView" destination="hSN-m6-giJ" id="ObS-VF-f6N"/>
+                        <outlet property="foodImage" destination="rWf-Vt-ekJ" id="UwP-uy-RBY"/>
+                        <outlet property="foodLabel" destination="Kwt-hI-zb7" id="Dm3-BG-c4U"/>
+                        <outlet property="foodRating" destination="lIm-69-BbL" id="GK4-xJ-4pa"/>
+                        <outlet property="foodType1" destination="Nb0-Av-OmW" id="oId-ae-qgf"/>
+                        <outlet property="foodType2" destination="Xno-Rd-gNH" id="CFz-f7-cm5"/>
+                        <outlet property="foodType3" destination="TOl-vX-Y6q" id="gB0-M8-5cf"/>
+                        <outlet property="reviewBox" destination="cj0-lH-1t0" id="mYB-vc-hok"/>
+                        <outlet property="reviewLabel" destination="OVf-k8-iwh" id="vpw-Ti-dZR"/>
+                        <outlet property="reviewStars" destination="JGC-jv-czP" id="eBa-nO-zZZ"/>
+                        <outlet property="submitButton" destination="QeU-xa-H7k" id="DhZ-T0-22r"/>
                         <segue destination="nsH-uv-1pC" kind="presentation" id="lON-lU-riz"/>
                         <segue destination="kKc-6f-8HA" kind="presentation" id="4AS-eZ-evt"/>
                     </connections>
