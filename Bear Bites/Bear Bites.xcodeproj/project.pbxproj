@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ABFF51DBA4FC1E909E2E583 /* Pods_Bear_Bites_Bear_BitesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8655446C0D352CCB8CD566 /* Pods_Bear_Bites_Bear_BitesUITests.framework */; };
+		564CBDE22443D6080098CE0E /* RefacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564CBDE12443D6080098CE0E /* RefacViewController.swift */; };
+		564CBDE42443EB490098CE0E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564CBDE32443EB490098CE0E /* NetworkManager.swift */; };
 		5664B4772443B87C0095F6DF /* OpenSans-master  in Resources */ = {isa = PBXBuildFile; fileRef = 5664B4762443B87C0095F6DF /* OpenSans-master  */; };
 		5664B4792443B96A0095F6DF /* dining.json in Resources */ = {isa = PBXBuildFile; fileRef = 5664B4782443B96A0095F6DF /* dining.json */; };
-		5664B47B2443C5C60095F6DF /* RefacCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664B47A2443C5C60095F6DF /* RefacCollectionView.swift */; };
 		5664B47D2443C5EC0095F6DF /* RefacCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664B47C2443C5EC0095F6DF /* RefacCollectionViewCell.swift */; };
 		5664B47F2443CAD50095F6DF /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664B47E2443CAD50095F6DF /* SectionHeaderView.swift */; };
 		56DAAF52243766F7008E6F20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAAF51243766F7008E6F20 /* AppDelegate.swift */; };
@@ -21,6 +23,8 @@
 		56DAAF69243766FA008E6F20 /* Bear_BitesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAAF68243766FA008E6F20 /* Bear_BitesTests.swift */; };
 		56DAAF74243766FA008E6F20 /* Bear_BitesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAAF73243766FA008E6F20 /* Bear_BitesUITests.swift */; };
 		67DF4E422443C76E00C008D8 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DF4E412443C76E00C008D8 /* FoodDetailViewController.swift */; };
+		A865058041596FAE88B87045 /* Pods_Bear_BitesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228DC5B45069CC91F90D3D9B /* Pods_Bear_BitesTests.framework */; };
+		DF6360E5AFDB03E106D1A67C /* Pods_Bear_Bites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526C9FDE59EA66109ED56FD4 /* Pods_Bear_Bites.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FCB6C02E7D71E02BF3D0838 /* Pods-Bear Bites-Bear BitesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear Bites-Bear BitesUITests.release.xcconfig"; path = "Target Support Files/Pods-Bear Bites-Bear BitesUITests/Pods-Bear Bites-Bear BitesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		228DC5B45069CC91F90D3D9B /* Pods_Bear_BitesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bear_BitesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C71DF57D18C391337A9ABEE /* Pods-Bear Bites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear Bites.debug.xcconfig"; path = "Target Support Files/Pods-Bear Bites/Pods-Bear Bites.debug.xcconfig"; sourceTree = "<group>"; };
+		3F8655446C0D352CCB8CD566 /* Pods_Bear_Bites_Bear_BitesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bear_Bites_Bear_BitesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E3EE652D07B4E8A42879F7 /* Pods-Bear BitesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear BitesTests.debug.xcconfig"; path = "Target Support Files/Pods-Bear BitesTests/Pods-Bear BitesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		526C9FDE59EA66109ED56FD4 /* Pods_Bear_Bites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bear_Bites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		564CBDE12443D6080098CE0E /* RefacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefacViewController.swift; sourceTree = "<group>"; };
+		564CBDE32443EB490098CE0E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		5664B4762443B87C0095F6DF /* OpenSans-master  */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "OpenSans-master "; sourceTree = "<group>"; };
 		5664B4782443B96A0095F6DF /* dining.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dining.json; sourceTree = "<group>"; };
-		5664B47A2443C5C60095F6DF /* RefacCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefacCollectionView.swift; sourceTree = "<group>"; };
 		5664B47C2443C5EC0095F6DF /* RefacCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefacCollectionViewCell.swift; sourceTree = "<group>"; };
 		5664B47E2443CAD50095F6DF /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		56DAAF4E243766F7008E6F20 /* Bear Bites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bear Bites.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +71,10 @@
 		56DAAF6F243766FA008E6F20 /* Bear BitesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bear BitesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DAAF73243766FA008E6F20 /* Bear_BitesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_BitesUITests.swift; sourceTree = "<group>"; };
 		56DAAF75243766FA008E6F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BED6FB964FEBF3C4C5DF1E4 /* Pods-Bear Bites-Bear BitesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear Bites-Bear BitesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bear Bites-Bear BitesUITests/Pods-Bear Bites-Bear BitesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		67DF4E412443C76E00C008D8 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		92FF96FE647344DDEA9CC0F6 /* Pods-Bear Bites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear Bites.release.xcconfig"; path = "Target Support Files/Pods-Bear Bites/Pods-Bear Bites.release.xcconfig"; sourceTree = "<group>"; };
+		F2E4EC2BEC40A2A769A7C288 /* Pods-Bear BitesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear BitesTests.release.xcconfig"; path = "Target Support Files/Pods-Bear BitesTests/Pods-Bear BitesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6360E5AFDB03E106D1A67C /* Pods_Bear_Bites.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A865058041596FAE88B87045 /* Pods_Bear_BitesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABFF51DBA4FC1E909E2E583 /* Pods_Bear_Bites_Bear_BitesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +114,8 @@
 				56DAAF67243766FA008E6F20 /* Bear BitesTests */,
 				56DAAF72243766FA008E6F20 /* Bear BitesUITests */,
 				56DAAF4F243766F7008E6F20 /* Products */,
+				EB6F965BA1D9830B85462EA7 /* Pods */,
+				B7BC5320A2BB43723D81E28D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,13 +136,14 @@
 				56DAAF53243766F7008E6F20 /* SceneDelegate.swift */,
 				56DAAF55243766F7008E6F20 /* ViewController.swift */,
 				56DAAF57243766F7008E6F20 /* Main.storyboard */,
-				5664B47A2443C5C60095F6DF /* RefacCollectionView.swift */,
 				5664B47C2443C5EC0095F6DF /* RefacCollectionViewCell.swift */,
 				56DAAF5A243766FA008E6F20 /* Assets.xcassets */,
 				56DAAF5C243766FA008E6F20 /* LaunchScreen.storyboard */,
 				56DAAF5F243766FA008E6F20 /* Info.plist */,
 				5664B47E2443CAD50095F6DF /* SectionHeaderView.swift */,
 				67DF4E412443C76E00C008D8 /* FoodDetailViewController.swift */,
+				564CBDE12443D6080098CE0E /* RefacViewController.swift */,
+				564CBDE32443EB490098CE0E /* NetworkManager.swift */,
 			);
 			path = "Bear Bites";
 			sourceTree = "<group>";
@@ -146,6 +166,30 @@
 			path = "Bear BitesUITests";
 			sourceTree = "<group>";
 		};
+		B7BC5320A2BB43723D81E28D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				526C9FDE59EA66109ED56FD4 /* Pods_Bear_Bites.framework */,
+				3F8655446C0D352CCB8CD566 /* Pods_Bear_Bites_Bear_BitesUITests.framework */,
+				228DC5B45069CC91F90D3D9B /* Pods_Bear_BitesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB6F965BA1D9830B85462EA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C71DF57D18C391337A9ABEE /* Pods-Bear Bites.debug.xcconfig */,
+				92FF96FE647344DDEA9CC0F6 /* Pods-Bear Bites.release.xcconfig */,
+				5BED6FB964FEBF3C4C5DF1E4 /* Pods-Bear Bites-Bear BitesUITests.debug.xcconfig */,
+				0FCB6C02E7D71E02BF3D0838 /* Pods-Bear Bites-Bear BitesUITests.release.xcconfig */,
+				43E3EE652D07B4E8A42879F7 /* Pods-Bear BitesTests.debug.xcconfig */,
+				F2E4EC2BEC40A2A769A7C288 /* Pods-Bear BitesTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56DAAF78243766FA008E6F20 /* Build configuration list for PBXNativeTarget "Bear Bites" */;
 			buildPhases = (
+				2358B36168F75B226AACFDA6 /* [CP] Check Pods Manifest.lock */,
 				56DAAF4A243766F7008E6F20 /* Sources */,
 				56DAAF4B243766F7008E6F20 /* Frameworks */,
 				56DAAF4C243766F7008E6F20 /* Resources */,
+				7CA98DDA47D66A16B3C110C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56DAAF7B243766FA008E6F20 /* Build configuration list for PBXNativeTarget "Bear BitesTests" */;
 			buildPhases = (
+				AF20CB627D5834E6F48068E7 /* [CP] Check Pods Manifest.lock */,
 				56DAAF60243766FA008E6F20 /* Sources */,
 				56DAAF61243766FA008E6F20 /* Frameworks */,
 				56DAAF62243766FA008E6F20 /* Resources */,
@@ -188,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56DAAF7E243766FA008E6F20 /* Build configuration list for PBXNativeTarget "Bear BitesUITests" */;
 			buildPhases = (
+				F43E46CB89A27D072FBB1D0B /* [CP] Check Pods Manifest.lock */,
 				56DAAF6B243766FA008E6F20 /* Sources */,
 				56DAAF6C243766FA008E6F20 /* Frameworks */,
 				56DAAF6D243766FA008E6F20 /* Resources */,
+				A128970FFC8120F7923A11F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,18 +323,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2358B36168F75B226AACFDA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bear Bites-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CA98DDA47D66A16B3C110C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear Bites/Pods-Bear Bites-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear Bites/Pods-Bear Bites-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bear Bites/Pods-Bear Bites-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A128970FFC8120F7923A11F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear Bites-Bear BitesUITests/Pods-Bear Bites-Bear BitesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear Bites-Bear BitesUITests/Pods-Bear Bites-Bear BitesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bear Bites-Bear BitesUITests/Pods-Bear Bites-Bear BitesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF20CB627D5834E6F48068E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bear BitesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43E46CB89A27D072FBB1D0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bear Bites-Bear BitesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56DAAF4A243766F7008E6F20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5664B47B2443C5C60095F6DF /* RefacCollectionView.swift in Sources */,
 				5664B47F2443CAD50095F6DF /* SectionHeaderView.swift in Sources */,
 				56DAAF56243766F7008E6F20 /* ViewController.swift in Sources */,
 				5664B47D2443C5EC0095F6DF /* RefacCollectionViewCell.swift in Sources */,
 				56DAAF52243766F7008E6F20 /* AppDelegate.swift in Sources */,
+				564CBDE42443EB490098CE0E /* NetworkManager.swift in Sources */,
 				56DAAF54243766F7008E6F20 /* SceneDelegate.swift in Sources */,
 				67DF4E422443C76E00C008D8 /* FoodDetailViewController.swift in Sources */,
+				564CBDE22443D6080098CE0E /* RefacViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +609,7 @@
 		};
 		56DAAF79243766FA008E6F20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C71DF57D18C391337A9ABEE /* Pods-Bear Bites.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +628,7 @@
 		};
 		56DAAF7A243766FA008E6F20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FF96FE647344DDEA9CC0F6 /* Pods-Bear Bites.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +647,7 @@
 		};
 		56DAAF7C243766FA008E6F20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E3EE652D07B4E8A42879F7 /* Pods-Bear BitesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +670,7 @@
 		};
 		56DAAF7D243766FA008E6F20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2E4EC2BEC40A2A769A7C288 /* Pods-Bear BitesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +693,7 @@
 		};
 		56DAAF7F243766FA008E6F20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BED6FB964FEBF3C4C5DF1E4 /* Pods-Bear Bites-Bear BitesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +714,7 @@
 		};
 		56DAAF80243766FA008E6F20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FCB6C02E7D71E02BF3D0838 /* Pods-Bear Bites-Bear BitesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

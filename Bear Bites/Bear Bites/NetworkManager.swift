@@ -1,3 +1,16 @@
+//
+//  NetworkManager.swift
+//  Bear Bites
+//
+//  Created by George Martin on 4/12/20.
+//  Copyright © 2020 Bear-Bites. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+let refacMenu = """
+
 {
   "menu": [
     {
@@ -902,4 +915,11 @@
       "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     }
   ]
+}
+"""
+
+class NetworkManager {
+    static func downloadRefacMenu(completion:((_ json: Data?) -> Void)){
+        completion(Data(refacMenu.utf8))
+    }
 }

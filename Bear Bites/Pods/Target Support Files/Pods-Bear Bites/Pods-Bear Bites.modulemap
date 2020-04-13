@@ -1,0 +1,6 @@
+framework module Pods_Bear_Bites {
+  umbrella header "Pods-Bear Bites-umbrella.h"
+
+  export *
+  module * { export * }
+}
