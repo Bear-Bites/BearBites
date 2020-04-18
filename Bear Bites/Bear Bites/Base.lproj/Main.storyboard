@@ -26,7 +26,7 @@
         <!--Comment Scene-->
         <scene sceneID="ywt-V1-y02">
             <objects>
-                <viewController title="Comment Scene" id="eKM-8y-nAM" sceneMemberID="viewController">
+                <viewController title="Comment Scene" id="eKM-8y-nAM" customClass="CommentDetailV_iewController" customModule="Bear_Bites" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bzg-Z6-11a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,21 +40,33 @@
                                 <rect key="frame" x="17" y="3" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Newest"/>
+                                <connections>
+                                    <action selector="newestSort:" destination="eKM-8y-nAM" eventType="touchUpInside" id="OPf-1B-ezp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufR-XA-a0u">
                                 <rect key="frame" x="78" y="3" width="91" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Most Popular"/>
+                                <connections>
+                                    <action selector="mostPopularSort:" destination="eKM-8y-nAM" eventType="touchUpInside" id="rvY-Lg-9Vp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwf-V0-wUl">
                                 <rect key="frame" x="192" y="3" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Most Positive"/>
+                                <connections>
+                                    <action selector="mostPositiveSort:" destination="eKM-8y-nAM" eventType="touchUpInside" id="9vU-I7-Sc2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhH-p7-UIP">
                                 <rect key="frame" x="318" y="3" width="87" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Most Critical"/>
+                                <connections>
+                                    <action selector="mostCriticalSort:" destination="eKM-8y-nAM" eventType="touchUpInside" id="KMJ-uz-tvj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

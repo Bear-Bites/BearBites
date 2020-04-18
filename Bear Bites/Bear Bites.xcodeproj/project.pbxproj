@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,6 +23,7 @@
 		56DAAF69243766FA008E6F20 /* Bear_BitesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAAF68243766FA008E6F20 /* Bear_BitesTests.swift */; };
 		56DAAF74243766FA008E6F20 /* Bear_BitesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAAF73243766FA008E6F20 /* Bear_BitesUITests.swift */; };
 		67DF4E422443C76E00C008D8 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DF4E412443C76E00C008D8 /* FoodDetailViewController.swift */; };
+		67E0E8DC244BC30C00B53BBA /* CommentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0E8DB244BC30C00B53BBA /* CommentDetailViewController.swift */; };
 		A865058041596FAE88B87045 /* Pods_Bear_BitesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228DC5B45069CC91F90D3D9B /* Pods_Bear_BitesTests.framework */; };
 		DF6360E5AFDB03E106D1A67C /* Pods_Bear_Bites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526C9FDE59EA66109ED56FD4 /* Pods_Bear_Bites.framework */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,7 @@
 		56DAAF75243766FA008E6F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BED6FB964FEBF3C4C5DF1E4 /* Pods-Bear Bites-Bear BitesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear Bites-Bear BitesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bear Bites-Bear BitesUITests/Pods-Bear Bites-Bear BitesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		67DF4E412443C76E00C008D8 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		67E0E8DB244BC30C00B53BBA /* CommentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommentDetailV\U0010iewController.swift"; sourceTree = "<group>"; };
 		92FF96FE647344DDEA9CC0F6 /* Pods-Bear Bites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear Bites.release.xcconfig"; path = "Target Support Files/Pods-Bear Bites/Pods-Bear Bites.release.xcconfig"; sourceTree = "<group>"; };
 		F2E4EC2BEC40A2A769A7C288 /* Pods-Bear BitesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear BitesTests.release.xcconfig"; path = "Target Support Files/Pods-Bear BitesTests/Pods-Bear BitesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +138,7 @@
 				56DAAF53243766F7008E6F20 /* SceneDelegate.swift */,
 				56DAAF55243766F7008E6F20 /* ViewController.swift */,
 				56DAAF57243766F7008E6F20 /* Main.storyboard */,
+				67E0E8DB244BC30C00B53BBA /* CommentDetailViewController.swift */,
 				5664B47C2443C5EC0095F6DF /* RefacCollectionViewCell.swift */,
 				56DAAF5A243766FA008E6F20 /* Assets.xcassets */,
 				56DAAF5C243766FA008E6F20 /* LaunchScreen.storyboard */,
@@ -186,7 +189,6 @@
 				43E3EE652D07B4E8A42879F7 /* Pods-Bear BitesTests.debug.xcconfig */,
 				F2E4EC2BEC40A2A769A7C288 /* Pods-Bear BitesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -432,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5664B47F2443CAD50095F6DF /* SectionHeaderView.swift in Sources */,
+				67E0E8DC244BC30C00B53BBA /* CommentDetailViewController.swift in Sources */,
 				56DAAF56243766F7008E6F20 /* ViewController.swift in Sources */,
 				5664B47D2443C5EC0095F6DF /* RefacCollectionViewCell.swift in Sources */,
 				56DAAF52243766F7008E6F20 /* AppDelegate.swift in Sources */,
