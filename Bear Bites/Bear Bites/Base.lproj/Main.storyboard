@@ -256,15 +256,15 @@
                         <viewLayoutGuide key="safeArea" id="S1h-4s-bBc"/>
                     </view>
                     <navigationItem key="navigationItem" id="Fvr-aG-Fb7">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="TCW-hl-yeT">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="TCW-hl-yeT">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fkZ-IG-hTJ">
-                                <rect key="frame" x="20" y="7" width="92" height="30"/>
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="onLogout:" destination="nsH-uv-1pC" eventType="touchUpInside" id="Nps-8I-NG1"/>
+                                </connections>
                             </button>
-                            <connections>
-                                <action selector="onLogout:" destination="nsH-uv-1pC" id="WCl-Wy-WAc"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
