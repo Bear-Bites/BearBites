@@ -6,7 +6,10 @@ target 'Bear Bites' do
   use_frameworks!
 
   # Pods for Bear Bites
+  pod "Parse"
   pod "AlamofireImage"
+  pod "MessageInputBar"
+
   target 'Bear BitesTests' do
     inherit! :search_paths
     # Pods for testing
