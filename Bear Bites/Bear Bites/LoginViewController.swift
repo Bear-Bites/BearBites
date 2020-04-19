@@ -20,7 +20,33 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
+    @IBAction func onSignup(_ sender: Any) {
+        let user = PFUser()
+        user.username = usernameField.text
+        user.password = passwordField.text
+        // other fields can be set just like with PFObject
+        user.signUpInBackground { (sucess, error) in
+            if sucess{
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            } else{
+                print("error: \(error?.localizedDescription)")
+            }
+        }
+    }
     
+    @IBAction func onSignin(_ sender: Any) {
+        let username = usernameField.text!
+            let password = passwordField.text!
+            
+            PFUser.logInWithUsername(inBackground: username, password: password)
+            { (user, error) in
+                if user != nil{
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+                } else{
+                    print("error: \(error?.localizedDescription)")
+                }
+            }
+        }
     /*
     // MARK: - Navigation
 
