@@ -45,6 +45,7 @@ This will give students a better idea of what is being served on a daily basis o
 
 * Login Screen
    - [x ] As a user, I should be able to login with parse, so I can use the application.
+   - [x ] User stays logged in across restarts. 
 * Main Screen
    - [x ] As a user, I should be able to see the menu for the day, so I can make an informed decison on where I should eat.
    - [ x] As a user, I should be able to see ratings for menu items, so I can make an informed decison on what I should eat.
@@ -128,3 +129,10 @@ This will give students a better idea of what is being served on a daily basis o
     * (Read/GET) Get details of menu item
 * Comments View
     * (Read/GET) Reviews of a menu item
+    
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/kCEBPSrq26.gif' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/Ou73AWgmj4.gif' width='' alt='Video Walkthrough' />
