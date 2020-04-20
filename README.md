@@ -44,10 +44,10 @@ This will give students a better idea of what is being served on a daily basis o
 ### 2. Screen Archetypes
 
 * Login Screen
-   - [ ] As a user, I should be able to login with google, so I can use the application.
+   - [x ] As a user, I should be able to login with parse, so I can use the application.
 * Main Screen
-   - [ ] As a user, I should be able to see the menu for the day, so I can make an informed decison on where I should eat.
-   - [ ] As a user, I should be able to see ratings for menu items, so I can make an informed decison on what I should eat.
+   - [x ] As a user, I should be able to see the menu for the day, so I can make an informed decison on where I should eat.
+   - [ x] As a user, I should be able to see ratings for menu items, so I can make an informed decison on what I should eat.
    - [ ] As a user, I should be able to see the top rated foods for the day, so I can quickly see the best options.
    - [ ] As a user I should be able to filter food by dietary restrictions, so I can easily see what foods apply to me
 * Food Detailed View
