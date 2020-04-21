@@ -8,6 +8,7 @@
 
 import UIKit
 import AlamofireImage
+import Parse
 
 class RefacViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate{
     @IBOutlet weak var collectionView: UICollectionView!
@@ -64,6 +65,16 @@ class RefacViewController: UIViewController, UICollectionViewDataSource, UIColle
         return cell
     }
     
+    @IBAction func onLogout(_ sender: Any) {
+        print("logged out")
+        PFUser.logOut()
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
+        
+        let sceneDelegate = self.view.window?.windowScene?.delegate as! SceneDelegate
+        
+        sceneDelegate.window?.rootViewController = loginViewController
+    }
     
     
     

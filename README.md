@@ -44,24 +44,25 @@ This will give students a better idea of what is being served on a daily basis o
 ### 2. Screen Archetypes
 
 * Login Screen
-   * As a user, I should be able to login with google, so I can use the application.
+   - [x ] As a user, I should be able to login with parse, so I can use the application.
+   - [x ] User stays logged in across restarts. 
 * Main Screen
-   * As a user, I should be able to see the menu for the day, so I can make an informed decison on where I should eat.
-   * As a user, I should be able to see ratings for menu items, so I can make an informed decison on what I should eat.
-   * As a user, I should be able to see the top rated foods for the day, so I can quickly see the best options.
-   * As a user I should be able to filter food by dietary restrictions, so I can easily see what foods apply to me
+   - [x ] As a user, I should be able to see the menu for the day, so I can make an informed decison on where I should eat.
+   - [ x] As a user, I should be able to see ratings for menu items, so I can make an informed decison on what I should eat.
+   - [ ] As a user, I should be able to see the top rated foods for the day, so I can quickly see the best options.
+   - [ ] As a user I should be able to filter food by dietary restrictions, so I can easily see what foods apply to me
 * Food Detailed View
-    * As a user, I should be able to see ratings for menu items, so I can make an informed decison on what I should eat.
-    * As a user, I should be able to see comments for menu items, so I can make an informed decison on what I should eat.
-    * As a user, I should be able to post comments and ratings for menu items, so I can help other users make an informed decsion on what they should eat.
-    * As a user, I should be able to see the nutrition facts for a menu item, so I can determine wheter or not it fits into my diet.
-    * As a user, I should be able to see top comments for menu items, so I can get a summary of what the comment section is like.
-    * As a user, I should be able to see a description for a menu item, so I get an idea of what is being served.
+    - [ ] As a user, I should be able to see ratings for menu items, so I can make an informed decison on what I should eat.
+    - [ ] As a user, I should be able to see comments for menu items, so I can make an informed decison on what I should eat.
+    - [ ] As a user, I should be able to post comments and ratings for menu items, so I can help other users make an informed decsion on what they should eat.
+    - [ ] As a user, I should be able to see the nutrition facts for a menu item, so I can determine wheter or not it fits into my diet.
+    - [ ] As a user, I should be able to see top comments for menu items, so I can get a summary of what the comment section is like.
+    - [ ] As a user, I should be able to see a description for a menu item, so I get an idea of what is being served.
 * Comments View
-    * As a user, I should be able to see comments for menu items, so I can make an informed decison on what I should eat.
-    * As a user, I should be able to like/dislike comments for menu items, so I can cosign on previous comments and dont have to write my own.
-    * As a user I can filter comments by likes, dislikes or time posted so I can see a variety of comments
-    * As a user, I should be able to post comments and ratings for menu items, so I can help other users make an informed decsion on what they should eat.
+    - [ ] As a user, I should be able to see comments for menu items, so I can make an informed decison on what I should eat.
+    - [ ] As a user, I should be able to like/dislike comments for menu items, so I can cosign on previous comments and dont have to write my own.
+    - [ ] As a user I can filter comments by likes, dislikes or time posted so I can see a variety of comments
+    - [ ] As a user, I should be able to post comments and ratings for menu items, so I can help other users make an informed decsion on what they should eat.
 
 ### 3. Navigation
 
@@ -128,3 +129,10 @@ This will give students a better idea of what is being served on a daily basis o
     * (Read/GET) Get details of menu item
 * Comments View
     * (Read/GET) Reviews of a menu item
+    
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/kCEBPSrq26.gif' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/Ou73AWgmj4.gif' width='' alt='Video Walkthrough' />
