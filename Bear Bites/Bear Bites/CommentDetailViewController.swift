@@ -10,19 +10,7 @@ import UIKit
 
 class CommentDetailV_iewController: UIViewController {
     
-    
-    @IBAction func newestSort(_ sender: Any) {
-    }
-    
-    @IBAction func mostPopularSort(_ sender: Any) {
-    }
-    
-    @IBAction func mostPositiveSort(_ sender: Any) {
-    }
-    
-    @IBAction func mostCriticalSort(_ sender: Any) {
-    }
-    
+
     
     
     override func viewDidLoad() {
