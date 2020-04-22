@@ -10,8 +10,16 @@ import UIKit
 
 class CommentDetailV_iewController: UIViewController {
     
-
+    @IBOutlet weak var authorName: UILabel!
     
+    @IBOutlet weak var authorComment: UILabel!
+    
+    @IBOutlet weak var authorPicture: UIImageView!
+    
+    @IBOutlet weak var foodRating: UIImageView!
+    
+    @IBAction func filterControl(_ sender: Any) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
