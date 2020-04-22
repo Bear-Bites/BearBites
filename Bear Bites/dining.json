@@ -706,7 +706,7 @@
     {
       "title": "Asian Vegetable Blend ",
       "calories": " 4 oz(41.8 cal)",
-      "types": "dinner",
+      "types": "dinner","nutrition":["vegetarian"]
       "image": "https://images.unsplash.com/photo-1548492212-8cd969151279?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
@@ -730,19 +730,19 @@
     {
       "title": "Grilled Corn ",
       "calories": "1 ea(163.4 cal) ",
-      "types": "dinner",
+      "types": "dinner","nutrition":["vegetarian"]
       "image": "https://images.unsplash.com/photo-1475869430886-fb14585f7443?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
       "title": "Chipotle Pinto Beans ",
       "calories": "4oz(109.1 cal) ",
-      "types": "dinner",
+      "types": "dinner","nutrtion":["Vegetarian"]
       "image": "https://images.unsplash.com/photo-1582570674250-1d2e41c89860?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
       "title": "Tofu and Veggie Scampi ",
       "calories": "4 oz(164.3 cal) ",
-      "types": "dinner",
+      "types": "dinner","nutriton":["vegan","vegetarian"]
       "image": "https://images.unsplash.com/photo-1524912252351-940a17b9e3f8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
@@ -778,31 +778,31 @@
     {
       "title": "Signature Macaroni and Cheese ",
       "calories": " 4 oz(63.2 cal)",
-      "types": "dinner",
+      "types": "dinner","nutrition":["dairy"]
       "image": "https://images.unsplash.com/photo-1560177006-c5b5c3cfa75b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
       "title": "Vegetarian Collard Greens ",
       "calories": "4oz (63.2 cal) ",
-      "types": "dinner",
+      "types": "dinner","nutrition":["vegetarian"]
       "image": "https://images.unsplash.com/photo-1525351549016-1ddd272c8315?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
       "title": "Steamed Broccoli ",
       "calories": "4oz(38.7 cal) ",
-      "types": "dinner",
+      "types": "dinner","nutrition":["vegetarian"]
       "image": "https://images.unsplash.com/photo-1546241126-da278b8ec3ac?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
       "title": "Crispy Vegan Chicken Tenders ",
       "calories": "2 ea(180 cal) ",
-      "types": "dinner",
+      "types": "dinner","nutrition":["vegan"]
       "image": "https://images.unsplash.com/photo-1549573308-806b7492063e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
       "title": "Vegetarian Collard Greens ",
       "calories": "4oz (63.2 cal) ",
-      "types": "dinner",
+      "types": "dinner","nutrition":["vegetarian"]
       "image": "https://images.unsplash.com/photo-1525351549016-1ddd272c8315?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
@@ -832,13 +832,13 @@
     {
       "title": "Squash, Zucchini Peppers and Carrots ",
       "calories": "4 oz(51 cal) ",
-      "types": "dinner",
+      "types": "dinner","nutrition":["vegetarian"]
       "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
       "title": "Asparagus with Garlic ",
       "calories": " 4 oz(53.9 cal)",
-      "types": "dinner",
+      "types": "dinner","nutrition":["vegetarian"]
       "image": "https://images.unsplash.com/photo-1565685223391-f95fd3910d61?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
@@ -862,31 +862,31 @@
     {
       "title": "Classic Fried Green Tomatoes ",
       "calories": " 3 slice(314.6 cal)",
-      "types": "dinner",
+      "types": "dinner","nutrition":["vegetarian"]
       "image": "https://images.unsplash.com/photo-1525351549016-1ddd272c8315?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
       "title": "Cheese Grits ",
       "calories": "4 oz(82.9 cal) ",
-      "types": "dinner",
+      "types": "dinner","nutrition":["dairy"]
       "image": " https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
       "title": "Corn with Pimento ",
       "calories": "4 oz(37.6 cal) ",
-      "types": "dinner",
+      "types": "dinner","nutriton":["vegetarian"]
       "image": "https://images.unsplash.com/photo-1577883609870-63ef4caa50e9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
       "title": "Vegan Meatballs ",
       "calories": "3 ea(150 cal) ",
-      "types": "dinner",
+      "types": "dinner","nutrition":["vegan"]
       "image": "https://images.unsplash.com/photo-1547058881-aa0edd92aab3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
       "title": "Chickpeas and Spinach ",
       "calories": "4 oz(134 cal) ",
-      "types": "dinner",
+      "types": "dinner","nutrition":["vegetarian"]
       "image": "https://images.unsplash.com/photo-1542354254-d856f94968ea?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30"
     },
     {
