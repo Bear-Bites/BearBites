@@ -473,10 +473,6 @@
             <point key="canvasLocation" x="2469.5652173913045" y="2341.304347826087"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="Io5-TM-uxR"/>
-        <segue reference="00c-QK-ZtA"/>
-    </inferredMetricsTieBreakers> 
     <resources>
         <image name="fiveStar" width="198" height="39"/>
         <image name="zeroStar" width="198" height="39"/>
