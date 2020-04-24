@@ -77,8 +77,6 @@
             </objects>
             <point key="canvasLocation" x="635" y="-757"/>
         </scene>
-<<<<<<< HEAD
-=======
         <!--Comment Scene-->
         <scene sceneID="ywt-V1-y02">
             <objects>
@@ -157,7 +155,6 @@
             </objects>
             <point key="canvasLocation" x="3376.811594202899" y="2341.304347826087"/>
         </scene>
->>>>>>> a1e09c07ab584e85ece705abdd48fa5ef746f672
         <!--View Controller-->
         <scene sceneID="ujP-Nx-kCw">
             <objects>
