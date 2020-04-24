@@ -4,7 +4,7 @@
        "title": "Blueberry Pancakes",
        "calories": "2 e.a (113 cal)",
        "types": "breakfast",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://images.unsplash.com/photo-1584278858764-2ddcd7f228da?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30",
        "days": ["Monday"]
        
@@ -13,7 +13,7 @@
        "title": "Pork Bacon",
        "calories": "2 slices(87 cal)",
        "types": "breakfast",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://www.fifteenspatulas.com/wp-content/uploads/2018/06/Cooking-Bacon-In-The-oven-Fifteen-Spatulas-1-640x959.jpg",
        "days":["Monday", "Thursday"]
      },
@@ -21,7 +21,7 @@
        "title": "Turkey Sausage Patty ",
        "calories": " 2 oz(86.4 cal)",
        "types": "breakfast",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://images.eatthismuch.com/site_media/img/101476_LoveMoonshadow_7cd36035-6efb-4776-a2dc-f2ad16ed4a1f.jpg",
        "days":["Monday", "Wednesday", "Friday"]
      },
@@ -45,7 +45,7 @@
        "title": "Oatmeal ",
        "calories": "4 oz(71.6 cal) ",
        "types": "breakfast",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://images.unsplash.com/photo-1585849540407-2ddb0ecaf8ad?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30",
        "days":["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
      },
@@ -53,7 +53,7 @@
        "title": "Grits ",
        "calories": " 4 oz(72.7 cal)",
        "types": "breakfast",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://addapinch.com/wp-content/uploads/2019/06/instant-pot-grits-recipe-926-2.jpg",
        "days":["Monday", "Wednesday", "Thursday", "Friday"]
      },
@@ -61,7 +61,7 @@
        "title": "Biscuits ",
        "calories": " 1 ea (198.5 cal)",
        "types": "breakfast",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://www.momontimeout.com/wp-content/uploads/2012/05/biscuit-recipe-easy-1.jpg",
        "days":["Tuesday", "Friday"]
      },
@@ -69,7 +69,7 @@
        "title": "Country Ham ",
        "calories": " 20z meat(67.2 cal)",
        "types": "breakfast",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://images.unsplash.com/photo-1524438418049-ab2acb7aa48f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30",
        "days":["Tuesday", "Friday"]
      },
@@ -77,7 +77,7 @@
        "title": "Turkey Sausage Links ",
        "calories": " 1 ea(34.4 cal)",
        "types": "breakfast",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-oqyZwWaNRUmLp9UmphdW3Uqv4UajBVrUdqfQ1ZLTN0ukCO05&usqp=CAU",
        "days": ["Tuesday", "Thursday"]
      },
@@ -85,7 +85,7 @@
        "title": "Potatoes OBrien ",
        "calories": "1/2 cup(101.6 cal) ",
        "types": "breakfast",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://www.afamilyfeast.com/wp-content/uploads/2017/01/Potatoes-OBrien2.jpg",
        "days":["Tuesday", "Thursday"]
      },
@@ -103,7 +103,7 @@
        "title": "Crispy Stuffed French Toast ",
        "calories": "1 ea(563 cal) ",
        "types": "breakfast",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://spicysouthernkitchen.com/wp-content/uploads/Crunchy-French-Toast-5.jpg",
        "days":["Wednesday"]
      },
@@ -111,7 +111,7 @@
        "title": "Corned Beef Hash",
        "calories": " 1 serving(204 cal)",
        "types": "breakfast",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://www.simplyrecipes.com/wp-content/uploads/2009/03/corned-beef-hash-horiz-a-1200.jpg",
        "days":["Wednesday"]
      },
@@ -120,7 +120,7 @@
        "title": "Crispy Hashbrowns ",
        "calories": "1/2 cup(202.3 cal) ",
        "types": "breakfast",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/1/22/0/KC1602_Crispy-Hashbrowns_s4x3.jpg.rend.hgtvcom.826.620.suffix/1516656859953.jpeg",
        "days":["Wednesday"]
      },
@@ -154,7 +154,7 @@
        "title": "Tator Tots ",
        "calories": " 1/2 cup(168.7 cal)",
        "types": "breakfast",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://images.unsplash.com/photo-1564976704241-79e265ed90fc?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30",
        "days":["Monday","Friday"]
      },
@@ -162,7 +162,7 @@
        "title": "Batter Fried Cod ",
        "calories": "4 oz (295 cal) ",
        "types": "lunch",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://images.unsplash.com/photo-1562967914-01efa7e87832?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30",
        "days":["Monday"]
      },
@@ -170,7 +170,7 @@
        "title": "Chicken Breast Newport ",
        "calories": " 4 oz(150.9 cal)",
        "types": "lunch",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://barnabyscafe.com/mobile/images/barnaby-s%20grilled%20chicken%20breast.jpg?crc=235139527",
        "days":["Monday"]
      },
@@ -178,7 +178,7 @@
        "title": "Herbed Rice Pilaf ",
        "calories": "4 oz(144cal) ",
        "types": "lunch",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30",
        "days":["Monday"]
      },
@@ -218,7 +218,7 @@
        "title": "Pasta Bar ",
        "calories": " 6 oz(345 cal)",
        "types": "lunch",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30",
        "days":["Wednesday", "Monday"]
      },
@@ -226,7 +226,7 @@
        "title": "Hamburger on Bun",
        "calories": "1 sandwich (426.9 cal) ",
        "types": "lunch",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://i.ytimg.com/vi/ace-TXcX6GY/hqdefault.jpg",
        "days":["Monday"]
      },
@@ -274,7 +274,7 @@
        "title": "Hard Fried Eggs ",
        "calories": " 1 ea(83 cal)",
        "types": "lunch",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://images.unsplash.com/photo-1585941479819-ce92ab8167fc?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30",
        "days":["Monday"]
      },
@@ -282,7 +282,7 @@
        "title": "French Fries",
        "calories": " 4 oz(224.3 cal)",
        "types": "lunch",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://images.unsplash.com/photo-1484009902830-a314db11070c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyNDgyN30",
        "days":["Monday", "Tuesday", "Friday"]
      },
@@ -299,7 +299,7 @@
        "title": "Chana Masala ",
        "calories": " 4 oz(122.1 cal)",
        "types": "lunch",
-       "nutrition": [],
+       "nutrition": [""],
        "image": "https://images.immediate.co.uk/production/volatile/sites/2/2019/04/OLI-EasterIssue2019-Everyday_ChannaMasala_31526-bc1e5ad.jpg?webp=true&quality=45&resize=1880%2C799",
        "days":["Tuesday"]
      },
@@ -811,7 +811,7 @@
        "title": "Squash, Zucchini Peppers and Carrots ",
        "calories": "4 oz(51 cal) ",
        "types": "dinner",
-       "nutrtion":["vegetarian"]
+       "nutrition":["vegetarian"]
        "image": "https://natashaskitchen.com/wp-content/uploads/2015/10/Roasted-Vegetables-Recipe-10-600x900.jpg",
        "days":["Thurdsay"]
      },
@@ -819,7 +819,7 @@
        "title": "Asparagus with Garlic ",
        "calories": " 4 oz(53.9 cal)",
        "types": "dinner",
-       "nutrtion":["vegetarian"]
+       "nutrition":["vegetarian"]
        "image": "https://www.myfooddiary.com/blog/asset/2017/roasted_asparagus_recipe.jpg",
        "days":["Thurdsay"]
      },
@@ -827,7 +827,7 @@
        "title": "Southwestern Black Bean Pot Pie ",
        "calories": "4 oz(133.6 cal) ",
        "types": "dinner",
-       "nutrtion":[""]
+       "nutrition":[""]
        "image": "https://www.cottercrunch.com/wp-content/uploads/2016/12/updated-HERO-shot-southwestern-polenta-casserole.jpg",
        "days":["Thursday"]
      },

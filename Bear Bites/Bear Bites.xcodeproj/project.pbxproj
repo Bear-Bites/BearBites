@@ -12,7 +12,6 @@
 		564CBDE22443D6080098CE0E /* RefacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564CBDE12443D6080098CE0E /* RefacViewController.swift */; };
 		564CBDE42443EB490098CE0E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564CBDE32443EB490098CE0E /* NetworkManager.swift */; };
 		5664B4772443B87C0095F6DF /* OpenSans-master  in Resources */ = {isa = PBXBuildFile; fileRef = 5664B4762443B87C0095F6DF /* OpenSans-master  */; };
-		5664B4792443B96A0095F6DF /* dining.json in Resources */ = {isa = PBXBuildFile; fileRef = 5664B4782443B96A0095F6DF /* dining.json */; };
 		5664B47D2443C5EC0095F6DF /* RefacCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664B47C2443C5EC0095F6DF /* RefacCollectionViewCell.swift */; };
 		5664B47F2443CAD50095F6DF /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664B47E2443CAD50095F6DF /* SectionHeaderView.swift */; };
 		56DAAF52243766F7008E6F20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAAF51243766F7008E6F20 /* AppDelegate.swift */; };
@@ -57,7 +56,6 @@
 		564CBDE12443D6080098CE0E /* RefacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefacViewController.swift; sourceTree = "<group>"; };
 		564CBDE32443EB490098CE0E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		5664B4762443B87C0095F6DF /* OpenSans-master  */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "OpenSans-master "; sourceTree = "<group>"; };
-		5664B4782443B96A0095F6DF /* dining.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dining.json; sourceTree = "<group>"; };
 		5664B47C2443C5EC0095F6DF /* RefacCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefacCollectionViewCell.swift; sourceTree = "<group>"; };
 		5664B47E2443CAD50095F6DF /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		56DAAF4E243766F7008E6F20 /* Bear Bites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bear Bites.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,7 +110,6 @@
 		56DAAF45243766F7008E6F20 = {
 			isa = PBXGroup;
 			children = (
-				5664B4782443B96A0095F6DF /* dining.json */,
 				5664B4762443B87C0095F6DF /* OpenSans-master  */,
 				56DAAF50243766F7008E6F20 /* Bear Bites */,
 				56DAAF67243766FA008E6F20 /* Bear BitesTests */,
@@ -304,7 +301,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5664B4792443B96A0095F6DF /* dining.json in Resources */,
 				5664B4772443B87C0095F6DF /* OpenSans-master  in Resources */,
 				56DAAF5E243766FA008E6F20 /* LaunchScreen.storyboard in Resources */,
 				56DAAF5B243766FA008E6F20 /* Assets.xcassets in Resources */,

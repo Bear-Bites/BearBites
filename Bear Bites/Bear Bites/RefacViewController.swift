@@ -13,7 +13,8 @@ import Parse
 class RefacViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate{
     @IBOutlet weak var collectionView: UICollectionView!
     
-    var menu_array = [[String:Any]]()
+    var menu = [PFObject]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.delegate = self
@@ -27,38 +28,36 @@ class RefacViewController: UIViewController, UICollectionViewDataSource, UIColle
         layout.itemSize = CGSize(width: width, height: width * 3 / 2)
 
         // Do any additional setup after loading the view.
-        NetworkManager.downloadRefacMenu { jsonData in
-            guard let jData = jsonData else { return }
-            
-            do {
-                if let json = try JSONSerialization.jsonObject(with: jData, options: []) as? [String: Any] {
-                    self.menu_array = json["menu"] as! [[String:Any]]
-                }
-            }catch let err{
-                print(err.localizedDescription)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let query = PFQuery(className: "Menu")
+        query.includeKeys(["title", "calories", "types", "nutrition", "image", "days"])
+        query.limit = 114
+        
+        query.findObjectsInBackground {(menu, error) in
+            if menu != nil {
+                self.menu = menu!
+                self.collectionView.reloadData()
             }
-            self.collectionView.reloadData()
         }
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        menu_array.count
+        menu.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "RefacCollectionViewCell", for: indexPath) as! RefacCollectionViewCell
-        let menu_item = menu_array[indexPath.item]
+        let menu_item = menu[indexPath.item]
         let menu_item_title = menu_item["title"]
-        print(menu_item["image"])
-
-        if let menu_item_image = URL(string: menu_item["image"] as! String)
-        {
-            cell.FoodImage.af_setImage(withURL: menu_item_image)
-        }
-        else
-        {
-            print("error!")
-        }
+        let image = menu_item["image"]
+        let url = URL(string: image as! String)!
+        print(url)
+        cell.FoodImage.af_setImage(withURL: url)
+  
         
         cell.MenuItemTitle.text = menu_item_title as? String
         
