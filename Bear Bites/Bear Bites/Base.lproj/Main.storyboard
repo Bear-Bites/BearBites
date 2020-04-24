@@ -147,6 +147,8 @@
                         <outlet property="authorName" destination="fyJ-yN-O8U" id="A2g-bf-9To"/>
                         <outlet property="authorPicture" destination="4mR-Bv-r4I" id="7vM-gV-seG"/>
                         <outlet property="foodRating" destination="t0Z-6m-aYE" id="FHf-Fb-G7r"/>
+                        <outlet property="postCell" destination="xCg-lL-DHd" id="I7p-h0-hjH"/>
+                        <outlet property="tableView" destination="jho-28-327" id="bNw-83-nbV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EZk-hu-FCT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
