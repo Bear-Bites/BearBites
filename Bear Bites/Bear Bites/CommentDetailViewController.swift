@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Parse
 
 
 class CommentDetailV_iewController: UIViewController {
@@ -34,12 +33,36 @@ class CommentDetailV_iewController: UIViewController {
 
         
     func tableView(_ tableView:UITableView,numberOfRowsInSection section: Int)->Int{
-            return 0
+        return comments.count
     }
-        func tableView(_ tableView:UITableView,cellForRowAt indexPath:IndexPath)->UITableViewCell{
-            
-        }
+       
+    func tableView(_ tableView:UITableView,cellForRowAt indexPath:IndexPath)->UITableViewCell{
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CommentCell")as! CommentCell
+        
+        let comment = comments[indexPath.row]
+        
+        let user = comment["author"] as! PFUser
+        cell.autherLabel.text = user
+        
+        return cell
+    }
     
+    override func viewDidAppear(_ animated:Bool){
+        super.viewDidAppear(animated)
+        let query = PFQuery(className:"Comments")
+        query.includeKey("author")
+        query.limit = 20
+        
+        
+        quert.findObjectsInBackground{ (comments,error) in
+            if posts !=nil{
+                self.comments = comments!
+                self.tableView.reloadData()
+            }
+        }
+        
+    }
+        
         
         
         // Do any additional setupafter loading the view.
