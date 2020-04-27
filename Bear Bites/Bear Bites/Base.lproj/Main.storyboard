@@ -419,6 +419,45 @@
             </objects>
             <point key="canvasLocation" x="1974" y="2303"/>
         </scene>
+        <!--Comment Scene-->
+        <scene sceneID="o2B-PU-YLN">
+            <objects>
+                <viewController title="Comment Scene" id="py3-8o-225" customClass="CommentDetailV_iewController" customModule="Bear_Bites" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GJI-sI-EYb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pw1-KK-cwM">
+                                <rect key="frame" x="0.0" y="123" width="414" height="613"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iot-WH-vCJ">
+                                <rect key="frame" x="20" y="62" width="374" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Newest"/>
+                                    <segment title="Most Popular"/>
+                                    <segment title="Most Positive"/>
+                                    <segment title="Most Critical"/>
+                                </segments>
+                                <connections>
+                                    <action selector="filterControl:" destination="py3-8o-225" eventType="valueChanged" id="Tsf-Ps-ZlA"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="eY0-gD-S7s"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BQp-7o-Khu"/>
+                    <connections>
+                        <outlet property="tableView" destination="pw1-KK-cwM" id="iCZ-M4-ceQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="diB-e3-ZHI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2875" y="2303"/>
+        </scene>
     </scenes>
     <resources>
         <image name="fiveStar" width="198" height="39"/>
