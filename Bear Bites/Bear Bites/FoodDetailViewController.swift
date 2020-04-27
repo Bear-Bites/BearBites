@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+import AlamofireImage
 
 class FoodDetailViewController: UIViewController {
 
@@ -23,18 +25,37 @@ class FoodDetailViewController: UIViewController {
     
     @IBOutlet weak var reviewLabel: UILabel!
     
-    @IBOutlet weak var reviewBox: UITextView!
+    @IBAction func oneStar(_ sender: Any) {
+    }
     
-    @IBOutlet weak var submitButton: UIButton!
+    @IBAction func twoStar(_ sender: Any) {
+    }
+    @IBAction func threeStar(_ sender: Any) {
+    }
+    @IBAction func fourStar(_ sender: Any) {
+    }
+    @IBAction func fiveStar(_ sender: Any) {
+    }
     
-    @IBOutlet weak var reviewStars: UIImageView!
-    
-    @IBOutlet weak var commentView: UITableView!
+    @IBAction func writeareview(_ sender: Any) {
+    }
     @IBOutlet weak var foodRating: UIImageView!
+    
+    @IBAction func seeAllReviews(_ sender: Any) {
+    }
+    
+    var menu_item: PFObject!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let imagePath = menu_item["image"] as! String
+        let foodUrl = URL(string: imagePath)
+        foodImage.af_setImage(withURL: foodUrl!)
+        
+        foodLabel.text = menu_item["title"] as? String
+        
+        
+        
         // Do any additional setup after loading the view.
     }
     

@@ -74,7 +74,30 @@ class RefacViewController: UIViewController, UICollectionViewDataSource, UIColle
         
         sceneDelegate.window?.rootViewController = loginViewController
     }
-    
+
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            // Get the new view controller using segue.destination.
+            
+            // Pass the selected object to the new view controller.
+            
+            print("loading up details screen")
+            
+            //find the selected movie
+            let cell = sender as! UICollectionViewCell
+            let indexPath = collectionView.indexPath(for: cell)!
+            let menu_item = menu[indexPath.item]
+            
+            //Pass selected movie to details view controller
+            let foodDetailViewController = segue.destination as! FoodDetailViewController
+            foodDetailViewController.menu_item = menu_item
+            
+            collectionView.deselectItem(at: indexPath, animated: true)
+        }
+        
+
+    }
+
     
     
     
@@ -89,4 +112,4 @@ class RefacViewController: UIViewController, UICollectionViewDataSource, UIColle
     }
     */
 
-}
+
