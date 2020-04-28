@@ -422,7 +422,7 @@
         <!--Comment Scene-->
         <scene sceneID="o2B-PU-YLN">
             <objects>
-                <viewController title="Comment Scene" id="py3-8o-225" customClass="CommentDetailV_iewController" customModule="Bear_Bites" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Comment Scene" id="py3-8o-225" customClass="CommentDetailViewController" customModule="Bear_Bites" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GJI-sI-EYb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
