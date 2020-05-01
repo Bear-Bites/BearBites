@@ -470,6 +470,10 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="dislikeButton" translatesAutoresizingMaskIntoConstraints="NO" id="J1e-wC-rcV">
+                                                    <rect key="frame" x="258" y="126" width="33" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -479,13 +483,17 @@
                                 <rect key="frame" x="17" y="250" width="159" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="likeButton" translatesAutoresizingMaskIntoConstraints="NO" id="gwz-fm-0oA">
+                                <rect key="frame" x="210" y="199" width="24" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="eY0-gD-S7s"/>
                     </view>
                     <navigationItem key="navigationItem" id="BQp-7o-Khu"/>
                     <connections>
-                        <outlet property="tableView" destination="pw1-KK-cwM" id="iCZ-M4-ceQ"/>
+                        <outlet property="tableView" destination="pw1-KK-cwM" id="qRt-lg-IWG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="diB-e3-ZHI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -494,7 +502,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="dislikeButton" width="24" height="24"/>
         <image name="fiveStar" width="198" height="39"/>
+        <image name="likeButton" width="24" height="24"/>
         <image name="zeroStar" width="198" height="39"/>
     </resources>
 </document>
