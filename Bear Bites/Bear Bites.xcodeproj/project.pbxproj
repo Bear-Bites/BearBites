@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0ABFF51DBA4FC1E909E2E583 /* Pods_Bear_Bites_Bear_BitesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8655446C0D352CCB8CD566 /* Pods_Bear_Bites_Bear_BitesUITests.framework */; };
 		4EBF9F6F2458CF0A004B9A10 /* CommentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF9F6E2458CF0A004B9A10 /* CommentDetailViewController.swift */; };
+		561D3464245CD4E1000C6F79 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D3463245CD4E1000C6F79 /* ReviewCell.swift */; };
 		564BF5E0244C7DE90028B4FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BF5DF244C7DE90028B4FD /* LoginViewController.swift */; };
 		564CBDE22443D6080098CE0E /* RefacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564CBDE12443D6080098CE0E /* RefacViewController.swift */; };
 		564CBDE42443EB490098CE0E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564CBDE32443EB490098CE0E /* NetworkManager.swift */; };
@@ -53,6 +54,7 @@
 		43E3EE652D07B4E8A42879F7 /* Pods-Bear BitesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear BitesTests.debug.xcconfig"; path = "Target Support Files/Pods-Bear BitesTests/Pods-Bear BitesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4EBF9F6E2458CF0A004B9A10 /* CommentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentDetailViewController.swift; sourceTree = "<group>"; };
 		526C9FDE59EA66109ED56FD4 /* Pods_Bear_Bites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bear_Bites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		561D3463245CD4E1000C6F79 /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		564BF5DF244C7DE90028B4FD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		564CBDE12443D6080098CE0E /* RefacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefacViewController.swift; sourceTree = "<group>"; };
 		564CBDE32443EB490098CE0E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				564CBDE12443D6080098CE0E /* RefacViewController.swift */,
 				564CBDE32443EB490098CE0E /* NetworkManager.swift */,
 				564BF5DF244C7DE90028B4FD /* LoginViewController.swift */,
+				561D3463245CD4E1000C6F79 /* ReviewCell.swift */,
 			);
 			path = "Bear Bites";
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 				564BF5E0244C7DE90028B4FD /* LoginViewController.swift in Sources */,
 				564CBDE22443D6080098CE0E /* RefacViewController.swift in Sources */,
 				4EBF9F6F2458CF0A004B9A10 /* CommentDetailViewController.swift in Sources */,
+				561D3464245CD4E1000C6F79 /* ReviewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 import UIKit
 import Parse
-//import AlamoFireImage
+import AlamofireImage
 class CommentDetailViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
@@ -35,7 +35,7 @@ class CommentDetailViewController: UIViewController,UITableViewDelegate,UITableV
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        let query = PFQuery(class:name"posts")
+        let query = PFQuery(className:"posts")
         query.includeKey("author")
         query.limit = 20
         
@@ -51,7 +51,7 @@ class CommentDetailViewController: UIViewController,UITableViewDelegate,UITableV
         return posts.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell =  tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as! ReviewCell
         
         
         let post = posts[indexPath.row]
@@ -61,7 +61,7 @@ class CommentDetailViewController: UIViewController,UITableViewDelegate,UITableV
         
         cell.commentLabel.text = post["comment"] as! String
         
-        let imageFile = post["image"] as ! PFFileObject
+        let imageFile = post["image"] as! PFFileObject
 
         let urlString = imageFile.url!
         let url = URL(string: urlString)!
