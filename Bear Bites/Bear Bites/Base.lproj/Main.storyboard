@@ -427,9 +427,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iot-WH-vCJ">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iot-WH-vCJ">
                                 <rect key="frame" x="20" y="34" width="374" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Newest"/>
                                     <segment title="Most Popular"/>
@@ -440,9 +439,8 @@
                                     <action selector="filterControl:" destination="py3-8o-225" eventType="valueChanged" id="Tsf-Ps-ZlA"/>
                                 </connections>
                             </segmentedControl>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pw1-KK-cwM">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pw1-KK-cwM">
                                 <rect key="frame" x="0.0" y="73" width="414" height="663"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="202" id="5Xg-ci-uYI" customClass="ReviewCell" customModule="Bear_Bites" customModuleProvider="target">
@@ -534,13 +532,17 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="pw1-KK-cwM" firstAttribute="leading" secondItem="eY0-gD-S7s" secondAttribute="leading" id="5es-8S-1jP"/>
+                            <constraint firstItem="pw1-KK-cwM" firstAttribute="bottom" secondItem="eY0-gD-S7s" secondAttribute="bottom" id="8GU-A8-5nc"/>
+                            <constraint firstItem="pw1-KK-cwM" firstAttribute="trailing" secondItem="eY0-gD-S7s" secondAttribute="trailing" id="8fk-Zt-aLK"/>
+                            <constraint firstItem="pw1-KK-cwM" firstAttribute="top" secondItem="iot-WH-vCJ" secondAttribute="bottom" constant="8" id="JMt-k6-fSv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="eY0-gD-S7s"/>
                     </view>
                     <navigationItem key="navigationItem" id="BQp-7o-Khu"/>
                     <connections>
-                        <outlet property="commentLabel" destination="5W0-cJ-poM" id="a9b-wJ-oKJ"/>
                         <outlet property="tableView" destination="pw1-KK-cwM" id="qRt-lg-IWG"/>
-                        <outlet property="usernameLabel" destination="ixI-uh-hkJ" id="AkB-ja-3Lb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="diB-e3-ZHI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

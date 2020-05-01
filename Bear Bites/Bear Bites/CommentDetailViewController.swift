@@ -13,15 +13,7 @@ class CommentDetailViewController: UIViewController,UITableViewDelegate,UITableV
 
     @IBOutlet weak var tableView: UITableView!
     
-    @IBOutlet weak var usernameLabel: UILabel!
     
-    @IBOutlet weak var commentLabel: UILabel!
-    
-    @IBAction func likeButton(_ sender: Any) {
-    }
-    
-    @IBAction func dislikeButton(_ sender: Any) {
-    }
     
     var posts = [PFObject]()
         override func viewDidLoad() {
@@ -57,9 +49,9 @@ class CommentDetailViewController: UIViewController,UITableViewDelegate,UITableV
         let post = posts[indexPath.row]
         
         let user = post["author"] as! PFUser
-        cell.usernameLabel.text = user.username
+        cell.userNameLabel.text = user.username
         
-        cell.commentLabel.text = post["comment"] as! String
+        cell.reviewBodyLabel.text = post["comment"] as? String
         
         let imageFile = post["image"] as! PFFileObject
 
