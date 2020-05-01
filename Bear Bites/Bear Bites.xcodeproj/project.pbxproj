@@ -10,6 +10,7 @@
 		0ABFF51DBA4FC1E909E2E583 /* Pods_Bear_Bites_Bear_BitesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8655446C0D352CCB8CD566 /* Pods_Bear_Bites_Bear_BitesUITests.framework */; };
 		4EBF9F6F2458CF0A004B9A10 /* CommentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF9F6E2458CF0A004B9A10 /* CommentDetailViewController.swift */; };
 		561D3464245CD4E1000C6F79 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D3463245CD4E1000C6F79 /* ReviewCell.swift */; };
+		561D3462245CCDDA000C6F79 /* PostCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D3461245CCDDA000C6F79 /* PostCommentViewController.swift */; };
 		564BF5E0244C7DE90028B4FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564BF5DF244C7DE90028B4FD /* LoginViewController.swift */; };
 		564CBDE22443D6080098CE0E /* RefacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564CBDE12443D6080098CE0E /* RefacViewController.swift */; };
 		564CBDE42443EB490098CE0E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564CBDE32443EB490098CE0E /* NetworkManager.swift */; };
@@ -55,6 +56,7 @@
 		4EBF9F6E2458CF0A004B9A10 /* CommentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentDetailViewController.swift; sourceTree = "<group>"; };
 		526C9FDE59EA66109ED56FD4 /* Pods_Bear_Bites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bear_Bites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		561D3463245CD4E1000C6F79 /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		561D3461245CCDDA000C6F79 /* PostCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentViewController.swift; sourceTree = "<group>"; };
 		564BF5DF244C7DE90028B4FD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		564CBDE12443D6080098CE0E /* RefacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefacViewController.swift; sourceTree = "<group>"; };
 		564CBDE32443EB490098CE0E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				564CBDE32443EB490098CE0E /* NetworkManager.swift */,
 				564BF5DF244C7DE90028B4FD /* LoginViewController.swift */,
 				561D3463245CD4E1000C6F79 /* ReviewCell.swift */,
+				561D3461245CCDDA000C6F79 /* PostCommentViewController.swift */,
 			);
 			path = "Bear Bites";
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				56DAAF56243766F7008E6F20 /* ViewController.swift in Sources */,
 				5664B47D2443C5EC0095F6DF /* RefacCollectionViewCell.swift in Sources */,
 				56DAAF52243766F7008E6F20 /* AppDelegate.swift in Sources */,
+				561D3462245CCDDA000C6F79 /* PostCommentViewController.swift in Sources */,
 				564CBDE42443EB490098CE0E /* NetworkManager.swift in Sources */,
 				56DAAF54243766F7008E6F20 /* SceneDelegate.swift in Sources */,
 				67DF4E422443C76E00C008D8 /* FoodDetailViewController.swift in Sources */,
