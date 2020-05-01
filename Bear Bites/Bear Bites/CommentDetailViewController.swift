@@ -13,6 +13,16 @@ class CommentDetailViewController: UIViewController,UITableViewDelegate,UITableV
 
     @IBOutlet weak var tableView: UITableView!
     
+    @IBOutlet weak var usernameLabel: UILabel!
+    
+    @IBOutlet weak var commentLabel: UILabel!
+    
+    @IBAction func likeButton(_ sender: Any) {
+    }
+    
+    @IBAction func dislikeButton(_ sender: Any) {
+    }
+    
     var posts = [PFObject]()
         override func viewDidLoad() {
         super.viewDidLoad()

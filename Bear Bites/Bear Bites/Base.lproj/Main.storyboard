@@ -470,30 +470,36 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="dislikeButton" translatesAutoresizingMaskIntoConstraints="NO" id="J1e-wC-rcV">
-                                                    <rect key="frame" x="258" y="126" width="33" height="24"/>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoK-YZ-UX3">
+                                                    <rect key="frame" x="35" y="169" width="57" height="24"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
+                                                    <state key="normal" image="likeButton"/>
+                                                    <connections>
+                                                        <action selector="likeButton:" destination="py3-8o-225" eventType="touchUpInside" id="LFs-3K-HWo"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdh-Pm-j0m">
+                                                    <rect key="frame" x="136" y="169" width="24" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" image="dislikeButton"/>
+                                                    <connections>
+                                                        <action selector="dislikeButton:" destination="py3-8o-225" eventType="touchUpInside" id="Zea-fy-HUG"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="zeroStar" translatesAutoresizingMaskIntoConstraints="NO" id="oHn-8E-Fj2">
-                                <rect key="frame" x="17" y="250" width="159" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="likeButton" translatesAutoresizingMaskIntoConstraints="NO" id="gwz-fm-0oA">
-                                <rect key="frame" x="210" y="199" width="24" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="eY0-gD-S7s"/>
                     </view>
                     <navigationItem key="navigationItem" id="BQp-7o-Khu"/>
                     <connections>
+                        <outlet property="commentLabel" destination="5W0-cJ-poM" id="a9b-wJ-oKJ"/>
                         <outlet property="tableView" destination="pw1-KK-cwM" id="qRt-lg-IWG"/>
+                        <outlet property="usernameLabel" destination="ixI-uh-hkJ" id="AkB-ja-3Lb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="diB-e3-ZHI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
