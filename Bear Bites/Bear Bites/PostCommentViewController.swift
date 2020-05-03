@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import AlamofireImage
+import Parse
 
-class PostCommentViewController: UIViewController {
+class PostCommentViewController: UIViewController, UINavigationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +18,24 @@ class PostCommentViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var commentField: UITextField!
+    
+    @IBAction func onSubmitButton(_ sender: Any) {
+        let review = PFObject(className: "Reviews")
+        
+        review["body"] = commentField.text
+        review["author"] = PFUser.current()
+        
+        review.saveInBackground{ (success, error) in
+            if success {
+                self.dismiss(animated: true, completion: nil)
+                print("saved")
+            }else{
+                print("error")
+            }
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
