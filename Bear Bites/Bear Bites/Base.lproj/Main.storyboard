@@ -463,9 +463,6 @@
                                     <segment title="Most Positive"/>
                                     <segment title="Most Critical"/>
                                 </segments>
-                                <connections>
-                                    <action selector="filterControl:" destination="py3-8o-225" eventType="valueChanged" id="Tsf-Ps-ZlA"/>
-                                </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pw1-KK-cwM">
                                 <rect key="frame" x="0.0" y="41" width="414" height="675"/>
@@ -574,6 +571,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="BQp-7o-Khu"/>
                     <connections>
+                        <outlet property="filterReviews" destination="iot-WH-vCJ" id="NaT-2n-dJX"/>
                         <outlet property="tableView" destination="pw1-KK-cwM" id="qRt-lg-IWG"/>
                     </connections>
                 </viewController>

@@ -13,6 +13,7 @@ class CommentDetailViewController: UIViewController,UITableViewDelegate,UITableV
 
     var menu_item: PFObject!
     
+    @IBOutlet weak var filterReviews: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
     
     @IBAction func likeButton(_ sender: Any) {
