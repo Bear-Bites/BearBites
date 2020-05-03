@@ -20,6 +20,7 @@ class ReviewCell: UITableViewCell {
     @IBOutlet weak var likesCount: UILabel!
     @IBOutlet weak var dislikesCount: UILabel!
     @IBOutlet weak var rating: UIImageView!
+    @IBOutlet weak var dateLabel: UILabel!
     
     
     @IBAction func likeButton(_ sender: Any) {

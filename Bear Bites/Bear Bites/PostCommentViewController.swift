@@ -27,7 +27,10 @@ class PostCommentViewController: UIViewController, UINavigationControllerDelegat
         print("menu item", menu_item?.objectId as Any)
         review["body"] = commentField.text
         review["author"] = PFUser.current()
-        review["menuItemId"] = menu_item?.objectId
+        review["menuItem"] = menu_item
+        review["likes"] = 0
+        review["dislikes"] = 0
+        review["date"] = "05/03/2020"
         //review["menuItemId"] = menu_item["__id"]
         
         review.saveInBackground{ (success, error) in

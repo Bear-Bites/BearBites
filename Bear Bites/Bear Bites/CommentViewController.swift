@@ -1,8 +1,8 @@
 //
-//  CommentDetailViewController.swift
+//  CommentViewController.swift
 //  Bear Bites
 //
-//  Created by user167669 on 4/28/20.
+//  Created by George Martin on 5/3/20.
 //  Copyright © 2020 Bear-Bites. All rights reserved.
 //
 
@@ -10,41 +10,40 @@ import UIKit
 import Parse
 import AlamofireImage
 
-class CommentDetailViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class CommentViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
-        tableView.delegate = self
-
+        tableView.dataSource = self
         // Do any additional setup after loading the view.
     }
-
-    var menu_item: PFObject!
-    
-    @IBOutlet weak var filterReviews: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
+    var menu_item: PFObject!
     var reviews = [PFObject]()
-    var selectedPost: PFObject!
-
+    var review: PFObject!
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        let query = PFQuery(className:"Reviews")
-        //query.whereKey("menuItemId", equalTo: menu_item?.objectId as Any)
+        let query = PFQuery(className: "Reviews")
+        query.includeKeys(["author", "body", "menuItem", "likes", "dislikes", "date"])
+        query.whereKey("menuItem", equalTo: menu_item)
         
-        query.findObjectsInBackground { (reviews, error) in
+        query.findObjectsInBackground {(reviews, error) in
             if reviews != nil {
                 self.reviews = reviews!
                 self.tableView.reloadData()
             }
         }
         print("reviews", reviews)
-}
-    
+    }
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return reviews.count
     }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ReviewCell") as! ReviewCell
         
@@ -54,13 +53,14 @@ class CommentDetailViewController: UIViewController,UITableViewDelegate,UITableV
         cell.userNameLabel.text = user.username
         
         cell.reviewBodyLabel.text = review["body"] as? String
+        cell.dateLabel.text = review["date"] as? String
+        cell.dislikesCount.text = review["dislikes"] as? String
+        cell.likesCount.text = review["likes"] as? String
         
         
-        //cell.photoView.af_setImage(withURL: url)
         
         return cell
     }
-
     /*
     // MARK: - Navigation
 

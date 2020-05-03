@@ -71,8 +71,8 @@ class FoodDetailViewController: UIViewController {
         }
         
         else if segue.identifier == "commentDetailView" {
-            let commentDetailViewController = segue.destination as! CommentDetailViewController
-            commentDetailViewController.menu_item = menu_item
+            let commentViewController = segue.destination as! CommentViewController
+            commentViewController.menu_item = menu_item
         }
         
     }
