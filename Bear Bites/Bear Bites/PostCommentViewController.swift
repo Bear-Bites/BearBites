@@ -7,16 +7,39 @@
 //
 
 import UIKit
+import AlamofireImage
+import Parse
 
-class PostCommentViewController: UIViewController {
+class PostCommentViewController: UIViewController, UINavigationControllerDelegate {
 
+    var menu_item: PFObject!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var commentField: UITextField!
+    
+    @IBAction func onSubmitButton(_ sender: Any) {
+        let review = PFObject(className: "Reviews")
+        print("menu item", menu_item?.objectId as Any)
+        review["body"] = commentField.text
+        review["author"] = PFUser.current()
+        review["menuItemId"] = menu_item?.objectId
+        //review["menuItemId"] = menu_item["__id"]
+        
+        review.saveInBackground{ (success, error) in
+            if success {
+                self.dismiss(animated: true, completion: nil)
+                print("saved")
+            }else{
+                print("error")
+            }
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

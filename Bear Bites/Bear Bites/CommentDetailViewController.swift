@@ -11,6 +11,8 @@ import Parse
 import AlamofireImage
 class CommentDetailViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
+    var menu_item: PFObject!
+    
     @IBOutlet weak var tableView: UITableView!
     
     @IBAction func likeButton(_ sender: Any) {
