@@ -59,6 +59,20 @@ class FoodDetailViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        
+        // Pass the selected object to the new view controller.
+        
+        print("loading up details screen")
+        
+        //find the selected movie
+        
+        //Pass selected movie to details view controller
+        let postCommentViewController = segue.destination as! PostCommentViewController
+        postCommentViewController.menu_item = menu_item
+    }
+    
 
     /*
     // MARK: - Navigation

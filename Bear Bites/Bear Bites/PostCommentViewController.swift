@@ -12,6 +12,8 @@ import Parse
 
 class PostCommentViewController: UIViewController, UINavigationControllerDelegate {
 
+    var menu_item: PFObject!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,9 +24,11 @@ class PostCommentViewController: UIViewController, UINavigationControllerDelegat
     
     @IBAction func onSubmitButton(_ sender: Any) {
         let review = PFObject(className: "Reviews")
-        
+        print("menu item", menu_item?.objectId as Any)
         review["body"] = commentField.text
         review["author"] = PFUser.current()
+        review["menuItemId"] = menu_item?.objectId
+        //review["menuItemId"] = menu_item["__id"]
         
         review.saveInBackground{ (success, error) in
             if success {
