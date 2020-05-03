@@ -65,12 +65,16 @@ class FoodDetailViewController: UIViewController {
         // Pass the selected object to the new view controller.
         
         print("loading up details screen")
+        if segue.identifier == "postCommentView" {
+            let postCommentViewController = segue.destination as! PostCommentViewController
+            postCommentViewController.menu_item = menu_item
+        }
         
-        //find the selected movie
+        else if segue.identifier == "commentDetailView" {
+            let commentDetailViewController = segue.destination as! CommentDetailViewController
+            commentDetailViewController.menu_item = menu_item
+        }
         
-        //Pass selected movie to details view controller
-        let postCommentViewController = segue.destination as! PostCommentViewController
-        postCommentViewController.menu_item = menu_item
     }
     
 

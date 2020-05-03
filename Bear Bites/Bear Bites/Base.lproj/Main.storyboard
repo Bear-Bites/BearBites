@@ -272,7 +272,7 @@
                                 <state key="normal" title="see all reviews..."/>
                                 <connections>
                                     <action selector="seeAllReviews:" destination="UJd-hA-6Ih" eventType="touchUpInside" id="OCE-Rr-NI9"/>
-                                    <segue destination="py3-8o-225" kind="showDetail" id="giE-rq-IeU"/>
+                                    <segue destination="py3-8o-225" kind="showDetail" identifier="commentDetailView" id="giE-rq-IeU"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(0 reviews)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heU-Yo-UcN">
