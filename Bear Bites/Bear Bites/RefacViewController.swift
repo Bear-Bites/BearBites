@@ -89,8 +89,8 @@ class RefacViewController: UIViewController, UICollectionViewDataSource, UIColle
             let menu_item = menu[indexPath.item]
             
             //Pass selected movie to details view controller
-            let foodDetailViewController = segue.destination as! FoodDetailViewController
-            foodDetailViewController.menu_item = menu_item
+            let foodViewController = segue.destination as! FoodViewController
+            foodViewController.menu_item = menu_item
             
             collectionView.deselectItem(at: indexPath, animated: true)
         }
