@@ -54,8 +54,11 @@ class CommentViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         cell.reviewBodyLabel.text = review["body"] as? String
         cell.dateLabel.text = review["date"] as? String
-        cell.dislikesCount.text = review["dislikes"] as? String
-        cell.likesCount.text = review["likes"] as? String
+//        cell.dislikesCount.text = "\(review["dislikes"]!)"
+//        cell.likesCount.text = "\(review["likes"]!)"
+        cell.dislikesCount.text = "0"
+        cell.likesCount.text = "0"
+        print("likes", review["likes"])
         
         
         
