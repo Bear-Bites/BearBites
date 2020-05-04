@@ -18,6 +18,7 @@
 		5664B47F2443CAD50095F6DF /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664B47E2443CAD50095F6DF /* SectionHeaderView.swift */; };
 		566DFE39245F43CE00460115 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566DFE38245F43CE00460115 /* CommentViewController.swift */; };
 		566DFE3F245F931700460115 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566DFE3E245F931700460115 /* FoodViewController.swift */; };
+		566DFE41245F9B9700460115 /* TopReviewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566DFE40245F9B9700460115 /* TopReviewsCell.swift */; };
 		56DAAF52243766F7008E6F20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAAF51243766F7008E6F20 /* AppDelegate.swift */; };
 		56DAAF54243766F7008E6F20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAAF53243766F7008E6F20 /* SceneDelegate.swift */; };
 		56DAAF56243766F7008E6F20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DAAF55243766F7008E6F20 /* ViewController.swift */; };
@@ -64,6 +65,7 @@
 		5664B47E2443CAD50095F6DF /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		566DFE38245F43CE00460115 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		566DFE3E245F931700460115 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		566DFE40245F9B9700460115 /* TopReviewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopReviewsCell.swift; sourceTree = "<group>"; };
 		56DAAF4E243766F7008E6F20 /* Bear Bites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bear Bites.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DAAF51243766F7008E6F20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56DAAF53243766F7008E6F20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				561D3461245CCDDA000C6F79 /* PostCommentViewController.swift */,
 				566DFE38245F43CE00460115 /* CommentViewController.swift */,
 				566DFE3E245F931700460115 /* FoodViewController.swift */,
+				566DFE40245F9B9700460115 /* TopReviewsCell.swift */,
 			);
 			path = "Bear Bites";
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 			files = (
 				566DFE39245F43CE00460115 /* CommentViewController.swift in Sources */,
 				5664B47F2443CAD50095F6DF /* SectionHeaderView.swift in Sources */,
+				566DFE41245F9B9700460115 /* TopReviewsCell.swift in Sources */,
 				56DAAF56243766F7008E6F20 /* ViewController.swift in Sources */,
 				5664B47D2443C5EC0095F6DF /* RefacCollectionViewCell.swift in Sources */,
 				56DAAF52243766F7008E6F20 /* AppDelegate.swift in Sources */,
