@@ -13,6 +13,31 @@ import Parse
 class PostCommentViewController: UIViewController, UINavigationControllerDelegate {
 
     var menu_item: PFObject!
+    var rating = 0
+
+    @IBOutlet weak var ratingImage: UIImageView!
+    
+    @IBAction func onOneStar(_ sender: Any) {
+        rating = 1
+        ratingImage.image = UIImage(named: "oneStar")
+    }
+    @IBAction func onTwoStar(_ sender: Any) {
+        rating = 2
+        ratingImage.image = UIImage(named: "twoStar")
+    }
+    @IBAction func onThreeStar(_ sender: Any) {
+        rating = 3
+        ratingImage.image = UIImage(named: "threeStar")
+    }
+    @IBAction func onFourStar(_ sender: Any) {
+        rating = 4
+        ratingImage.image = UIImage(named: "fourStar")
+    }
+    @IBAction func onFiveStar(_ sender: Any) {
+        rating = 5
+        ratingImage.image = UIImage(named: "fiveStar")
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +56,7 @@ class PostCommentViewController: UIViewController, UINavigationControllerDelegat
         review["likes"] = 0
         review["dislikes"] = 0
         review["date"] = "05/03/2020"
+        review["rating"] = rating
         //review["menuItemId"] = menu_item["__id"]
         
         review.saveInBackground{ (success, error) in

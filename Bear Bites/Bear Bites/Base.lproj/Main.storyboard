@@ -238,22 +238,37 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqg-5v-9f4">
                                 <rect key="frame" x="73" y="160" width="46" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onOneStar:" destination="aJf-iQ-h9n" eventType="touchUpInside" id="7PX-mK-Ra0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uud-uS-hEX">
                                 <rect key="frame" x="122" y="160" width="46" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onTwoStar:" destination="aJf-iQ-h9n" eventType="touchUpInside" id="Fsw-hq-ywP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3N-nl-qc1">
                                 <rect key="frame" x="176" y="160" width="46" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onThreeStar:" destination="aJf-iQ-h9n" eventType="touchUpInside" id="pd9-qP-z8y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRc-Ij-FVe">
                                 <rect key="frame" x="223" y="160" width="46" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onFourStar:" destination="aJf-iQ-h9n" eventType="touchUpInside" id="Uuh-AC-gup"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeW-ev-fe1">
                                 <rect key="frame" x="277" y="160" width="46" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onFiveStar:" destination="aJf-iQ-h9n" eventType="touchUpInside" id="QhM-j8-5Gk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -261,6 +276,7 @@
                     </view>
                     <connections>
                         <outlet property="commentField" destination="ZA6-54-lcr" id="Gc9-OC-a8Q"/>
+                        <outlet property="ratingImage" destination="uuE-hH-yiR" id="Msu-J9-Vr6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fiM-xH-HIX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
