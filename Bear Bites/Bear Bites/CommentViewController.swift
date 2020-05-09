@@ -60,6 +60,26 @@ class CommentViewController: UIViewController, UITableViewDelegate, UITableViewD
         cell.likesCount.text = "0"
         print("likes", review["likes"])
         
+        if review["rating"] as! Int == 0 {
+            cell.rating.image = UIImage(named: "zeroStar")
+        }
+        else if review["rating"] as! Int == 1 {
+            cell.rating.image = UIImage(named: "oneStar")
+        }
+        else if review["rating"] as! Int == 2 {
+            cell.rating.image = UIImage(named: "twoStar")
+        }
+        else if review["rating"] as! Int == 3 {
+            cell.rating.image = UIImage(named: "threeStar")
+        }
+        else if review["rating"] as! Int == 4 {
+            cell.rating.image = UIImage(named: "fourStar")
+        }
+        else if review["rating"] as! Int == 5 {
+            cell.rating.image = UIImage(named: "fiveStar")
+        }
+        
+        
         
         
         return cell

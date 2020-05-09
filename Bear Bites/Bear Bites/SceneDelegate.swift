@@ -22,9 +22,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if PFUser.current() != nil {
             let main = UIStoryboard(name: "Main", bundle: nil)
             self.window = UIWindow(windowScene: windowScene)
-            let tabbedViewController = main.instantiateViewController(withIdentifier: "tabbedViewController")
+            let refacNavigation = main.instantiateViewController(withIdentifier: "refacNavigation")
             
-            self.window?.rootViewController = tabbedViewController
+            self.window?.rootViewController = refacNavigation
             print("window %@", window)
             self.window?.makeKeyAndVisible()
         }

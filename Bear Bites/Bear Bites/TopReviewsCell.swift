@@ -15,6 +15,7 @@ class TopReviewsCell: UITableViewCell {
         // Initialization code
     }
 
+    @IBOutlet weak var ratingImage: UIImageView!
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var reviewBody: UILabel!
     override func setSelected(_ selected: Bool, animated: Bool) {
