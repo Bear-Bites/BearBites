@@ -69,7 +69,7 @@
                     <connections>
                         <outlet property="passwordField" destination="gAw-QK-HuW" id="q3y-rb-E9O"/>
                         <outlet property="usernameField" destination="TFn-CN-Dk0" id="9o0-6p-tOw"/>
-                        <segue destination="Mjs-3r-BSy" kind="push" identifier="loginSegue" id="JWb-G1-bUk"/>
+                        <segue destination="Mjs-3r-BSy" kind="presentation" identifier="loginSegue" modalPresentationStyle="fullScreen" id="JWb-G1-bUk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -82,7 +82,7 @@
             <objects>
                 <viewController storyboardIdentifier="refacViewController" id="nsH-uv-1pC" customClass="RefacViewController" customModule="Bear_Bites" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="11g-Am-Rjc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3m3-PP-CBV">
@@ -185,7 +185,7 @@
                     <navigationItem key="navigationItem" id="Fvr-aG-Fb7">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="TCW-hl-yeT">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fkZ-IG-hTJ">
-                                <rect key="frame" x="302" y="13" width="92" height="30"/>
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Logout"/>
                                 <connections>
@@ -430,6 +430,7 @@
                             <constraint firstItem="QSy-Vw-URt" firstAttribute="trailing" secondItem="yah-zi-vaT" secondAttribute="trailing" id="32x-Vc-9de"/>
                             <constraint firstItem="EWy-mI-4eD" firstAttribute="leading" secondItem="yah-zi-vaT" secondAttribute="leading" constant="59" id="4gy-eB-w32"/>
                             <constraint firstItem="yah-zi-vaT" firstAttribute="trailing" secondItem="heU-Yo-UcN" secondAttribute="trailing" constant="176" id="6TP-iE-VEM"/>
+                            <constraint firstItem="TOl-vX-Y6q" firstAttribute="top" secondItem="AfO-8g-XmB" secondAttribute="bottom" constant="15" id="7SI-8U-XXN"/>
                             <constraint firstItem="Kwt-hI-zb7" firstAttribute="leading" secondItem="yah-zi-vaT" secondAttribute="leading" id="AyQ-1w-vPk"/>
                             <constraint firstItem="QSy-Vw-URt" firstAttribute="leading" secondItem="yah-zi-vaT" secondAttribute="leading" id="C5Q-eC-2nJ"/>
                             <constraint firstItem="lIm-69-BbL" firstAttribute="leading" secondItem="yah-zi-vaT" secondAttribute="leading" constant="110" id="EIc-jD-ctG"/>
@@ -497,7 +498,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="FmM-ZC-omp"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gxt-4n-BLK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

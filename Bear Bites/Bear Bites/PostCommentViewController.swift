@@ -55,7 +55,7 @@ class PostCommentViewController: UIViewController, UINavigationControllerDelegat
         review["menuItem"] = menu_item
         review["likes"] = 0
         review["dislikes"] = 0
-        review["date"] = "05/03/2020"
+        review["date"] = "05/09/2020"
         review["rating"] = rating
         
         review.saveInBackground{ (success, error) in

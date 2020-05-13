@@ -107,7 +107,7 @@ class RefacViewController: UIViewController, UICollectionViewDataSource, UIColle
         else if avgRating as! Int == 5 {
             cell.RatingImage.image = UIImage(named: "fiveStar")        }
         avgRating = 0
-        cell.ReviewCountLabel.text = String(reviews.count)
+        cell.ReviewCountLabel.text = String(revs.count)
         cell.MenuItemTitle.text = menu_item_title as? String
         
         return cell
